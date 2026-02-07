@@ -2,6 +2,10 @@ package design_pattern.singleton;
 
 /*
 Eger Initialization means something like in advance.
+Because as soon as when start the application all the static variable preloaded into the memory  ,
+JVM loads the class, it creates an object of Singleton class.
+
+so even though if we not using this, it's always created the object.
  */
 
 
