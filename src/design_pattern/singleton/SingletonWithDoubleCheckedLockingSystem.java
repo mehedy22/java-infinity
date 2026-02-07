@@ -15,6 +15,7 @@ package design_pattern.singleton;
   So because of the caching two object is created.(without volatile)
 * Volatiles purpose is that if you created any object volatile any read and write is always happening in memory
   not in the cache. So when the seperate thread works simultanously they do the operation in the memory, rather cache.
+  * So volatile is used to overcome the memory issues.
 */
 
 public class SingletonWithDoubleCheckedLockingSystem {
