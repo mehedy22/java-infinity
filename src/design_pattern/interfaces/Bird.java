@@ -7,6 +7,15 @@ package design_pattern.interfaces;
 *
 */
 
+
+// Java 8 and 9 Features
+
+/* Default Methods
+* Before Java8 , interface can have only Abstract method. And all child classes has to provide abstract method implementation
+*  
+*
+*/
+
 public interface Bird {
     void fly();
 }
