@@ -20,6 +20,6 @@ public class MaxPriorityQueue {
             int value = maxPQ.poll();
             System.out.println(value);
         }
-        '
+
     }
 }
